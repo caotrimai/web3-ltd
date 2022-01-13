@@ -1,0 +1,105 @@
+{
+  "extends": ["react-app", "eslint-config-prettier"],
+  "plugins": ["eslint-plugin-prettier", "react-hooks"],
+  "rules": {
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "class-methods-use-this": ["off"],
+    "comma-dangle": ["error", "always-multiline"],
+    "curly": ["error", "all"],
+    "func-names": "off",
+    "global-require": "off",
+    "guard-for-in": "warn",
+    "import/extensions": "off",
+    "import/no-unresolved": "off",
+    "import/no-named-as-default": "warn",
+    "import/no-extraneous-dependencies": "off",
+    "max-len": [
+      "warn",
+      {
+        "code": 120,
+        "tabWidth": 2,
+        "ignoreUrls": true,
+        "ignoreTrailingComments": true
+      }
+    ],
+    "max-lines": "warn",
+    "no-console": "off",
+    "no-plusplus": "off",
+    "no-shadow": "off",
+    "no-script-url": "warn",
+    "no-undef": "warn",
+    "no-underscore-dangle": [
+      "off",
+      {
+        "allowAfterThis": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "no-restricted-syntax": "warn",
+    "no-restricted-globals": "warn",
+    "object-curly-spacing": "off",
+    "object-curly-newline": "off",
+    "padded-blocks": "off",
+    "jsx-a11y/label-has-for": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": ["invalidHref"]
+      }
+    ],
+    "react/no-array-index-key": "off",
+    "react/jsx-no-undef": "warn",
+    "react/prop-types": [
+      "off",
+      {
+        "ignore": ["classes", "location", "history", "children", "match", "className", "style"]
+      }
+    ],
+    "react/jsx-no-target-blank": "warn",
+    "react/jsx-closing-bracket-location": "warn",
+    "react/jsx-curly-spacing": [
+      "warn",
+      {
+        "when": "never",
+        "children": true
+      }
+    ],
+    "react/jsx-filename-extension": [
+      "error",
+      {
+        "extensions": [".js"]
+      }
+    ],
+    "react/jsx-tag-spacing": [
+      "warn",
+      {
+        "beforeSelfClosing": "always"
+      }
+    ],
+    "react/jsx-no-bind": "off",
+    "react/no-multi-comp": [
+      "warn",
+      {
+        "ignoreStateless": true
+      }
+    ],
+    "react/no-unescaped-entities": "warn",
+    "react/state-in-constructor": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/no-unused-prop-types": "warn",
+    "react/prefer-stateless-function": "off",
+    "react/prefer-es6-class": "warn",
+    "react/sort-comp": "warn",
+    "react/sort-prop-types": "off",
+    "react/jsx-sort-props": "off",
+    "react/forbid-component-props": "off",
+    "react/jsx-wrap-multilines": [
+      "error",
+      {
+        "declaration": false,
+        "assignment": false
+      }
+    ]
+  }
+}

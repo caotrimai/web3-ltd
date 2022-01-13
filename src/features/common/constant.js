@@ -1,0 +1,5 @@
+export const TOAST_TYPE = {
+  SUCCESS: 'SUCCESS',
+  ERROR: 'ERROR',
+  DEFAULT: 'DEFAULT',
+};

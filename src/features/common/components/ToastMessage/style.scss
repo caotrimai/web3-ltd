@@ -1,0 +1,16 @@
+.Toastify__toast {
+  &--default {
+    min-height: 36px!important;
+  }
+
+  .Toastify__toast-body {
+    margin: 0 auto;
+    padding: 2px 0;
+  }
+  .Toastify__close-button.Toastify__close-button--default {
+    color: #353535;
+    opacity: 1;
+  }
+}
+
+
